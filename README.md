@@ -1,27 +1,17 @@
----
-title: Border Radius Previewer
-description: Minimalistic Border Radius Previewer
-# url: TBA
-# cover_image: TBA
-level: beginner
-tech: [html, css, javascript]
-featured: false
-origin:
-  issue: 3
-  repo: florinpop17/app-ideas
----
-
 <div align="center">
-  <img src="https://api.dicebear.com/6.x/shapes/svg?seed=Border-Radius-Previewer" height="100px" width="100px" />
+  <img src="https://gitlab.com/xkrishguptaa/border-radius-previewer/-/raw/main/assets/logo.png" height="100px" width="100px" />
   <br />
-  <h1>Border Radius Previwer</h1>
+  <h1>Border Radius Previewer</h1>
   <p>Minimalistic Border Radius Previewer</p>
+  <p><a href="https://xkrishguptaa.gitlab.io/border-radius-previewer"><img src="https://img.shields.io/badge/View%20Deployed-2965F1?style=for-the-badge" alt="View Deployed" /></a></p>
 </div>
 
 ## 📸 Screenshots
 
-TBD
+| Desktop | Mobile |
+| --- | --- |
+| ![Screenshot of the application, the page includes a heading "Border Radius Previewer", a textbox for input border radiuses and the output as a square element with the border-radius style](https://gitlab.com/xkrishguptaa/border-radius-previewer/-/raw/main/assets/screenshots/desktop.png) |   ![Screenshot of Border Radius Previewer On A Mobile Device To Showcase That It's Responsive](https://gitlab.com/xkrishguptaa/border-radius-previewer/-/raw/main/assets/screenshots/mobile.png)  |
 
 ## 💡 Origin
 
-Details can be found => [#3](https://github.com/krishstwt/learning/issues/3)
+Details can be found => [#3](https://github.com/xkrishguptaa/learning/issues/3)
