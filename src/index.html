@@ -28,6 +28,10 @@
     <main>
       <section>
         <div>
+          <label>Advanced mode?</label>
+          <input type="checkbox" id="advanced" title="Toggle Advanced Mode" />
+        </div>
+        <div>
           <label>Top Left:</label>
           <input
             placeholder="Top Left"
@@ -37,6 +41,23 @@
             min="0"
           />
           <select title="CSS Unit" id="topleftunit">
+            <option value="%">%</option>
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="vw">vw</option>
+            <option value="vh">vh</option>
+          </select>
+          <span class="advanced">/</span>
+          <input
+            class="advanced"
+            placeholder="Top Left"
+            id="topleftx"
+            type="number"
+            value="1"
+            min="1"
+          />
+          <select class="advanced" title="CSS Unit" id="topleftxunit">
             <option value="%">%</option>
             <option value="px">px</option>
             <option value="em">em</option>
@@ -62,6 +83,23 @@
             <option value="vw">vw</option>
             <option value="vh">vh</option>
           </select>
+          <span class="advanced">/</span>
+          <input
+            class="advanced"
+            placeholder="Top Right"
+            id="toprightx"
+            type="number"
+            value="1"
+            min="1"
+          />
+          <select class="advanced" title="CSS Unit" id="toprightxunit">
+            <option value="%">%</option>
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="vw">vw</option>
+            <option value="vh">vh</option>
+          </select>
         </div>
         <div>
           <label>Bottom Left:</label>
@@ -80,6 +118,23 @@
             <option value="vw">vw</option>
             <option value="vh">vh</option>
           </select>
+          <span class="advanced">/</span>
+          <input
+            class="advanced"
+            placeholder="Bottom Left"
+            id="bottomleftx"
+            type="number"
+            value="1"
+            min="1"
+          />
+          <select class="advanced" title="CSS Unit" id="bottomleftxunit">
+            <option value="%">%</option>
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="vw">vw</option>
+            <option value="vh">vh</option>
+          </select>
         </div>
         <div>
           <label>Bottom Right:</label>
@@ -91,6 +146,23 @@
             min="0"
           />
           <select title="CSS Unit" id="bottomrightunit">
+            <option value="%">%</option>
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="vw">vw</option>
+            <option value="vh">vh</option>
+          </select>
+          <span class="advanced">/</span>
+          <input
+            class="advanced"
+            placeholder="Bottom Right"
+            id="bottomrightx"
+            type="number"
+            value="1"
+            min="1"
+          />
+          <select class="advanced" title="CSS Unit" id="bottomrightxunit">
             <option value="%">%</option>
             <option value="px">px</option>
             <option value="em">em</option>
