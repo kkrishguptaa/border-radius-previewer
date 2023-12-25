@@ -3,7 +3,7 @@
   <br />
   <h1>Border Radius Previewer</h1>
   <p>Minimalistic Border Radius Previewer</p>
-  <p><a href="https://xkrishguptaa.gitlab.io/border-radius-previewer"><img src="https://img.shields.io/badge/View%20Deployed-2965F1?style=for-the-badge" alt="View Deployed" /></a></p>
+  <p><a href="https://xkrishguptaa.github.io/border-radius-previewer"><img src="https://img.shields.io/badge/View%20Deployed-2965F1?style=for-the-badge" alt="View Deployed" /></a></p>
 </div>
 
 ## 📸 Screenshots
@@ -14,4 +14,4 @@
 
 ## 💡 Origin
 
-Details can be found => [#3](https://github.com/xkrishguptaa/learning/issues/3)
+Details can be found => [xkrishguptaa/learning#3](https://github.com/xkrishguptaa/learning/issues/3)
