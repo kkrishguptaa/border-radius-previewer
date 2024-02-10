@@ -19,7 +19,7 @@ jobs:
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@0252fc4ba7626f0298f0cf00902a25c6afc77fa8 # v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: src
 
@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - name: Deploy to GitHub pages
         id: deployment
-        uses: actions/deploy-pages@87c3283f01cd6fe19a0ab93a23b2f6fcba5a8e42 # v4
+        uses: actions/deploy-pages@decdde0ac072f6dcbe43649d82d9c635fff5b4e4 # v4
 
   comment-on-push:
     runs-on: ubuntu-latest
@@ -108,7 +108,7 @@ jobs:
           git checkout -b ${{ env.PR_BRANCH }}
 
       - name: Create Changelog
-        uses: TriPSs/conventional-changelog-action@dd734f74fce61a6e02f821ee1b5930bc79a23534 # v5
+        uses: TriPSs/conventional-changelog-action@ebc124553a706189378cccb6a34fa836ebff7bc1 # v5
         id: changelog
         with:
           github-token: ${{ github.token }}
