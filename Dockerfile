@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 httpd:2.4.59@sha256:b274c03586ee59b44abf6c3ce4f33e0b154b3556a98ba11932ad7a385f4cceed
+FROM --platform=linux/amd64 httpd:2.4.59@sha256:10758fe1fe13980e0d7bbdf8f0bbb40cf04e7c996248aac4ea390670b2420bd1
 
 COPY src/ /usr/local/apache2/htdocs
 
